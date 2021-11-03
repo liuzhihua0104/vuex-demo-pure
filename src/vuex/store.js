@@ -9,7 +9,7 @@ const state = {
 }
 
 
-// mutations里面放置的是操作state对象属性的方法
+// mutations里面放置的是操作state对象属性的方法rose
 const mutations = {
 	mutationsAddCount(state, n = 0) {
 		return state.count += n
